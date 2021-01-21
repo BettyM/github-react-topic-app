@@ -1,0 +1,46 @@
+:root {
+  --main-color: #2471A3;
+  --text-color: #777;
+  --text-color-light: #ccc;
+  --border-color: #eee;
+  --bg-color: #f9f9f9;
+  --neutral-color: #fff;
+}
+
+.dashboard-wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--main-color) !important;
+}
+
+.footer-container {
+  background: var(--main-color);
+  bottom: 0;
+  color: var(--neutral-color);
+  font-size: 12px;
+  padding: 20px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%
+}
+
+.topics-container {
+  padding: 20px 20px 40px 20px;
+}
+
+.badge {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.title {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
