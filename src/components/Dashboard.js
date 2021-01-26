@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Chip, Grid } from '@material-ui/core'
-import DataTable from 'react-data-table-component';
+import DataTable from 'react-data-table-component'
 import { getReactTopics } from '../services'
 
 const columns = [
